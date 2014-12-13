@@ -1,5 +1,12 @@
 package Controller;
 
-public class EditController {
+public class  EditController {
 
+	public void setAllAtributes(){
+		
+		
+		
+		
+	}
+	
 }
