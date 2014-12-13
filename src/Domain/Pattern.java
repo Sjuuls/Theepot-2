@@ -17,4 +17,24 @@ public class Pattern extends Component{
 	public String getName(){
 		return name;
 	}
+	
+	public void setName(String n){
+		name = n;
+	}
+	
+	public void setContext(String c){
+		context = c;
+	}
+	
+	public void setProblem(String p){
+		problem = p; 
+	}
+	
+	public void setConsequences(String cs){
+		consequences = cs;
+	}
+	
+	public void setImageLink(String il){
+		imageLink = il;
+	}
 }
