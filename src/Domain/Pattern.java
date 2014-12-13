@@ -1,15 +1,13 @@
 package Domain;
 
-import java.awt.Image;
-
 public class Pattern extends Component{
 	private String name, context, problem, solution, consequences, imageLink;
-	private Image image;
 	
-	public Pattern(String nm, String cont, String pr, String cons, String il){
+	public Pattern(String nm, String cont, String pr, String so, String cons, String il){
 		name = nm;
 		context = cont;
 		problem = pr;
+		solution = so;
 		consequences = cons;
 		imageLink = il;
 	}
@@ -24,6 +22,10 @@ public class Pattern extends Component{
 	
 	public String getProblem(){
 		return problem;
+	}
+	
+	public String getSolution(){
+		return solution;
 	}
 	
 	public String getConsequences(){
@@ -44,6 +46,10 @@ public class Pattern extends Component{
 	
 	public void setProblem(String p){
 		problem = p; 
+	}
+	
+	public void setSolutions(String so){
+		solution = so;
 	}
 	
 	public void setConsequences(String cs){
