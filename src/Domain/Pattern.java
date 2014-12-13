@@ -18,6 +18,22 @@ public class Pattern extends Component{
 		return name;
 	}
 	
+	public String getContext(){
+		return context;
+	}
+	
+	public String getProblem(){
+		return problem;
+	}
+	
+	public String getConsequences(){
+		return consequences;
+	}
+	
+	public String getImageLink(){
+		return imageLink;
+	}
+	
 	public void setName(String n){
 		name = n;
 	}
