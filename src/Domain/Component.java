@@ -5,6 +5,8 @@ import java.util.ArrayList;
 public abstract class Component {
 private ArrayList<Component> allPatterns = new ArrayList<Component>();
 	
+
+	//the abstract mehtods
 	public abstract String getName();
 	
 	
